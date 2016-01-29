@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import random
 import copy
-import math
 
 try:
     import tkinter
@@ -80,7 +79,7 @@ def draw(t):
             
     for i in range(size*2):
         print("-", end="")
-    print(self.generation)
+    print()
 
 def drawCanvas(t, size, canvas):
     cellsize = min(canvas.winfo_width(),canvas.winfo_height())/size
